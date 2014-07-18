@@ -1,6 +1,6 @@
 {
   "name": "lights",
-  "version": "0.0.82",
+  "version": "0.0.83",
   "description": "lights package manager",
   "main": "light.js",
   "scripts": {
@@ -16,7 +16,9 @@
   	"colors" : "0.6.2",
   	"path" : "0.4.9",
     "ini": "1.0.0",
-    "init-package-json" : "0.0.15"
+    "init-package-json" : "0.0.15",
+    "pac": "0.1.0",
+    "adm-zip": "0.4.4"
   },
   "keywords": [
     "lights",
