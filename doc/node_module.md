@@ -34,7 +34,7 @@ Lights提供的包管理功能不仅能够通过简单命令就完成一系列�
 
 **发布私有包**
 
-发布私有包请首先配置lights的私有仓库地址。执行`lights config set repos private` 即可完成设置。您也可以将`private` 替换成自己的lights仓库，如http://xxx.baidu.com等(注意后面不要带/)。
+发布私有包请首先配置lights的私有仓库地址。执行`lights config set repos private` 即可完成设置。您也可以将`private` 替换成自己的lights仓库，如 http://xxx.baidu.com 等(注意后面不要带/)。
 
 如果想将仓库切换成公有仓库，使用`lights config set repos public` 即可。公有仓库的地址是http://lightjs.duapp.com 
 
@@ -88,5 +88,7 @@ npm默认支持从第三方获取私有资源，所以使用时只需要在packa
 ### 联系我们
 
 使用问题及需求欢迎联系！
+
 邮件组：oak@baidu.com
+
 联系人：张涛(zhangtao07)、王程(wangcheng)

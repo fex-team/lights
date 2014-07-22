@@ -225,4 +225,4 @@ lights支持分布式的仓库存储。自行搭建的lights私有仓库，需�
 
 ## Node包管理
 
-node包管理使用详细请查看此[文档](./doc/node_modules.md)
+node包管理使用详细请查看此[文档](./doc/node_module.md)
