@@ -1,6 +1,6 @@
 {
   "name": "lights",
-  "version": "0.0.83",
+  "version": "0.0.86",
   "description": "lights package manager",
   "main": "light.js",
   "scripts": {

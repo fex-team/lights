@@ -221,3 +221,8 @@ lights支持分布式的仓库存储。自行搭建的lights私有仓库，需�
 
 ## 搭建私有仓库
 相关文档 [https://github.com/lily-zhangying/lights/wiki/newRepos]
+
+
+## Node包管理
+
+node包管理使用详细请查看此[文档](./doc/node_modules.md)

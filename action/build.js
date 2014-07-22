@@ -32,8 +32,11 @@ exports.register = function(commander){
 function buildModule(dir){
     var moduleDir = dir+"/node_modules";
     var zipFile = dir + "/modules.zip";
-    util.del(moduleDir);
-    util.mkdir(moduleDir);
+
+    if(!util.exists(moduleDir)){
+    	util.mkdir(moduleDir);
+    }
+    
 
     if(util.exists(zipFile)){
         //解压缩文件之后使用node-pac install安装模块，然后使用npm rebuild重新编译

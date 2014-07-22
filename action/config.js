@@ -44,6 +44,14 @@ exports.register = function(commander){
                         client.util.log('error', 'Sorry, Set invalid config. the valid config include: ' + exports.configKeys.join(', '), 'red');
                     }else{
                         var obj = {};
+                        //提供私有和公有仓库设置的快捷操作
+                        if(key == "repos"){
+                        	if( value == "private" ){
+                        		value = "http://fedev.baidu.com:8889";
+                        	}else if(value == "public"){
+                        		value = "http://lightjs.duapp.com";
+                        	}
+                        }
                         obj[key] = value;
                         client.conf.setConf(obj);
                         client.util.log('log', 'Set config [' + key + ": " + value + '] success!', 'green');

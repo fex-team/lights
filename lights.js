@@ -34,6 +34,8 @@ lights.cli.help = function(){
             '       remove       remove resource of lights',
             '       owner        change ownership of resource',
             '       config       set or get config of lights',
+            '       pack         pack node_modules and lock version',
+            '       build        rebuild node_modules',
             '       ini          create a package.json file'
         ];
     content = content.concat([
