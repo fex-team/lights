@@ -9,11 +9,8 @@ lights.log = require('./lib/log.js');
 lights.config = require('./lib/config.js');
 
 lights.cli = {};
-
 lights.cli.info = lights.util.readJSON(__dirname + '/package.json');
-
 lights.cli.name = 'lights';
-
 lights.cli.color = require('colors');
 
 lights.cli.commander = null;
